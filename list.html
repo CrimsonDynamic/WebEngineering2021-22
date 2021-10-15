@@ -5,17 +5,44 @@
         <title>Liste der Kategorien</title>
     </head>
     <body>
-        <p>
-        <a href="tutorials.html"><img src="images/WebEntwicklung.jpg" alt="bild beschreibung" height="250" width="500"></a>
-        <a href="tutorials.html"><strong>Web-Entwicklung</strong></a>
-        </p>
-        <p>
-        <a href="tutorials.html"><img src="images/schminken.jpg" alt="bild beschreibung" height="80" width="80"></a>
-        <a href="tutorials.html">Makeuptutorials</a>
-        </p>
-        <p>
-        <a href="tutorials.html"><img src="images/meme.jpg" alt="bild beschreibung" height="80" width="80"></a>
-        <a href="tutorials.html">Memestutorial</a>
-        </p>
+        <header>
+            <!-- Ein Kommentar -->
+            <img src="images/Logo.png" height="50" width="50">
+            <h1>Eine Tutorialseite</h1>
+        </header>
+        <nav>
+            <a href="list.html">Liste der Kategorien</a>
+            |
+            <a href="tutorials.html">Tutorials der Kategorie "X"</a>
+            |
+            <a href="tutorial.html">Details zu den Tutorial "Y"</a>
+        </nav>
+        <main>
+            <article title="Web-Entwicklung">
+            <p>
+            <a href="tutorials.html"><strong>Web-Entwicklung</strong></a>
+            <br>
+            <a href="tutorials.html"><img src="images/WebEntwicklung.jpg" height="250" width="500"></a>
+            </p></article>
+            <article title="Makeuptutorials"><p>
+            <a href="tutorials.html"><img src="" alt="bild beschreibung" height="80" width="80"></a>
+            <a href="tutorials.html">Makeuptutorials</a>
+            </p></article>
+            <article title="Memetutorials"> <p>
+            <a href="tutorials.html"><img src="" alt="bild beschreibung" height="80" width="80"></a>
+            <a href="tutorials.html">Memestutorial</a>
+            </p></article>
+        </main>
+        <aside>
+            <h2>Neueste Tutorials</h2>
+            <ul>
+                <li>Makeuptutorial - Der schnelle Blitzer, 28. September 2021 - Dauer: 15 Min.</li>
+                <li>Memestutorial - How to get Stonks, 10. Juli 2021 - Dauer: 30 Min.</li>
+            </ul>
+        </aside>
+        <footer>
+            <hr>
+            <small>&copy;2021 TKKG</small>
+        </footer>
     </body>
 </html>
