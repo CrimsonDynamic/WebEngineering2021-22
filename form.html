@@ -22,10 +22,10 @@
 </nav>
   <body>
    <form method="post">
-    <label>Titel:
+    <label>Titel: <br>
     <input type="text" name="title" size="20" minlength="4" maxlength="20" placeholder="Titel" pattern="^[A-Z]\w*$" required>
   </label> <br>
-    <label>Sprache:
+    <label>Sprache: <br>
     <select name="language" size="1">
         <option value="-">-</option>
         <option value="Deutsch" value="de">Deutsch</option>
@@ -47,21 +47,22 @@
       <textarea cols="80" rows="8" minlength="40" placeholder="Beschreibung"></textarea>
     </label><br>
     
-    <label>Dauer:
+    <label>Dauer: <br>
       <input type="number" min="0" max="16" required placeholder="Minuten">:<input type="number" min="20" max="59" required placeholder="Sekunden">
 
     </label><br>
 
-    <label>Veröffentlichung (Datum): 
+    <label>Veröffentlichung (Datum): <br>
       <input trype="date" required placeholder="YYYY-MM-DD">
     </label><br>
 
-    <label>Inhalt: 
+    <label>Inhalt: <br>
       <select name="type" size="1">
         <option value="Text-Tutorial" value="text">Text-Tutorial</option>
         <option value="Video-Tutorial" value="video">Video-Tutorial</option>
       </select>
-      <textarea cols="50" rows="1" maxlength="100" placeholder="URL oder Video Embed" required></textarea>
+      <br>
+      <textarea cols="80" rows="3" maxlength="100" placeholder="URL oder Video Embed" required></textarea>
     </label><br>
 
     <br>
