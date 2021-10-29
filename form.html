@@ -44,15 +44,19 @@
   </label><br>
     
     <label>Beschreibung: 
-
+      <textarea cols="100" rows="10" minlength="40">
+        ...
+      </textarea>
     </label><br>
     
-    <label>Dauer: 
+    <label>Dauer: <br>
+      Minuten:<input type="number" min="0" max="16" value="0" required>
+      Sekunden:<input type="number" min="20" max="59" value="20" required>
 
     </label><br>
 
     <label>Veröffentlichung (Datum): 
-
+      <input trype="date" value="YYYY-MM-DD" required>
     </label><br>
 
     <label>Inhalt: 
