@@ -43,20 +43,18 @@
     <textarea cols="60" rows="8" maxlength="1000" placeholder="Kategorie(n)" pattern="^[A-Z]\w+([,]\s[A-Z]\w+)*$" required></textarea>
   </label><br>
     
-    <label>Beschreibung: 
-      <textarea cols="100" rows="10" minlength="40">
-        ...
+    <label>Beschreibung: <br> 
+      <textarea cols="100" rows="10" minlength="40" placeholder="...">
       </textarea>
     </label><br>
     
-    <label>Dauer: <br>
-      Minuten:<input type="number" min="0" max="16" value="0" required>
-      Sekunden:<input type="number" min="20" max="59" value="20" required>
+    <label>Dauer:
+      <input type="number" min="0" max="16" required placeholder="Minuten">:<input type="number" min="20" max="59" required placeholder="Sekunden">
 
     </label><br>
 
     <label>Veröffentlichung (Datum): 
-      <input trype="date" value="YYYY-MM-DD" required>
+      <input trype="date" required placeholder="YYYY-MM-DD">
     </label><br>
 
     <label>Inhalt: 
