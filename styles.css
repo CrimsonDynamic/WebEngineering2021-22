@@ -1,0 +1,32 @@
+/* Ich durfte mich austoben das hab ich getan*/
+
+h1{
+  color: #FF0000;
+  font-style: bold;
+  fond-size: large;
+}
+h2{
+  color: #800000;
+  font-style: italic;
+  font-family: Times,serif;
+}
+h3{
+  color: #80080;
+  font-style: bold;
+  font-family: Helvetica,sans-serif;
+}
+h4{
+  color: #008000;
+  font-style: bold;
+  font-family: monospace;
+}
+h5{
+  color: orange;
+  font-style: italic;
+  font-family: cursive;
+}
+h6{
+  color: #C0C0C0;
+  font-style: bold;
+  font-family: fantasy;
+}
