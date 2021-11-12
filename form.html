@@ -39,11 +39,11 @@
   </label>
     
     <label>Autor*innen: 
-    <input type="text" name="author" size="20" minlength="4" maxlength="100" placeholder="Autor*innen" pattern="^[A-Z]\w+([,]\s[A-Z]\w+)*$" required>
+    <input type="text" name="author" size="20" minlength="4" maxlength="100" placeholder="Autor*innen" pattern="[A-Z][a-z0-9]+(, [A-Z][a-z0-9]+)*" required>
   </label><br>
     
     <label>Kategorie(n):
-    <input type="text" name="categories" placeholder="Kategorie(n)" pattern="^[A-Z]\w+([,]\s[A-Z]\w+)*$" required>
+    <input type="text" name="categories" placeholder="Kategorie(n)" pattern="^[^,]+(,[^,]+)*" required>
   </label><br>
     
     <label>Beschreibung:
