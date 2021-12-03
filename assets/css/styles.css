@@ -94,6 +94,13 @@ th, tfoot{
   background-color: coral;
 }
 
+img.tutorials{
+  float:left;
+}
+
+img.tutorial{
+  float:right;
+}
 
 
 
