@@ -4,8 +4,10 @@
         <meta charset="utf-8">
         <title>Detailseite zu einem Tutorial</title>
         <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/flexbox.css">
     </head>
     <body>
+        <div id="containerHeaderTut">
         <header>
             <!-- Ein Kommentar -->
             <img src="assets/images/Logo.png" alt="Logo" height="50" width="50" id="bild">
@@ -27,14 +29,18 @@
                 <input type="submit" value="Suche!">
             </form> -->
         </nav>
-        <main>
+    </div>
+    <div id="containerMiddleTut">
+        <main id="containerMainTut">
             <article id="meme" title="Memes">
                 <h2> Only the finest MEME'S</h2>
+                <div id="infosTut">
                 <p>Ersterscheinung:  15.10.2021</p>
-                <img src="assets/images/meme.jpg" alt="bild beschreibung" height="250" width="500" id="bild">
+                <img src="assets/images/meme.PNG" alt="bild beschreibung" height="250" width="500" id="bild">
+                </div>
                 <video src="assets/images/TestVideo.mp4" 
                        width="500" controls>
-                       Ihr Browser unterstützt das video-Element nicht.
+                       Ihr Browser unterstützt das Video-Element nicht.
                 </video>
                 <table>
                     <thead>
@@ -75,14 +81,15 @@
     </main>
 
 
-    <aside>
+    <aside id="sideinfosTut">
         <h3>Neueste Tutorials</h3>
         <ul>
             <li>Makeuptutorial - Der schnelle Blitzer, 28. September 2021 - Dauer: 15 Min.</li>
             <li>Memestutorial - How to get Stonks, 10. Juli 2021 - Dauer: 30 Min.</li>
         </ul>
     </aside>
-    <footer>
+</div>
+    <footer id="containerFooterTut">
         <hr>
         <small>&copy;2021 CPPRLMB (Club Preiswerter Privater Rechthaberischer Linux Möchtegern Bestreiter) </small>
     </footer>

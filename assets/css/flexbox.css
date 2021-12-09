@@ -1,0 +1,85 @@
+/*Flexbox list.html */
+
+#containerHeader {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+#containerMiddle {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+#containerMain {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px;
+    flex: 6 0 1000px;
+}
+
+#sideinfos {
+   flex: 1 1 100px;
+}
+
+#containerFooter {
+    display: flex;
+    flex-flow: column;
+    justify-content: left;
+    padding: 10px;
+    margin: 5px;
+}
+
+/*Flexbox tutorial.html*/
+
+#containerHeaderTut {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+#containerMiddleTut {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+#containerMainTut {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px;
+    flex: 6 0 1000px;
+}
+
+#infosTut {
+    display: flex;
+    flex-flow: row;
+    justify-content: left;
+    padding: 10px;
+    margin: 5px;
+}
+
+#sideinfosTut{
+   flex: 1 1 100px;
+}
+
+#containerFooterTut {
+    display: flex;
+    flex-flow: column;
+    justify-content: left;
+    padding: 10px;
+    margin: 5px;
+}

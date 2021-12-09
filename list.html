@@ -4,8 +4,11 @@
         <meta charset="utf-8">
         <title>Liste der Kategorien</title>
         <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/flexbox.css">
+
     </head>
     <body>
+        <div id="containerHeader">
         <header>
             <!-- Ein Kommentar -->
             <img src="assets/images/Logo.png" alt="Logo" height="50" width="50" id="bild">
@@ -20,7 +23,16 @@
             |
             <a href="form.html">Tutorial hinzufügen "+"</a>
         </nav>
-        <main>
+    </div>
+    <div id="containerMiddle">
+        <main id="containerMain">
+            <form method="get">
+                <label>Titel:
+                    <input type="text" name="search" size="20" minlength="4" maxlength="20" placeholder="Sucheingabe"
+                        pattern="^[A-Z]\w*$" required>
+                </label>
+                <input type="submit" value="Suche!">
+            </form>
         <article title="Web-Entwicklung">
             <a href="tutorials.html"><h2>Web-Entwicklung</h2></a>
             <a href="tutorials.html"><img src="assets/images/WebEntwicklung.jpg" alt="Bild beschreibung" height="200" width="400"></a>
@@ -34,14 +46,15 @@
             <a href="tutorials.html"><img src="assets/images/meme.PNG" alt="bild beschreibung" height="200" width="400"></a>
         </article>
         </main>
-        <aside>
+        <aside id="sideinfos">
             <h3>Neueste Tutorials</h3>
             <ul>
                 <li>Makeuptutorial - Der schnelle Blitzer, 28. September 2021 - Dauer: 15 Min.</li>
                 <li>Memestutorial - How to get Stonks, 10. Juli 2021 - Dauer: 30 Min.</li>
             </ul>
         </aside>
-        <footer>
+    </div>
+        <footer id="conatinerFooter">
             <hr>
             <small>&copy;2021 CPPRLMB (Club Preiswerter Privater Rechthaberischer Linux Möchtegern Bestreiter)</small>
         </footer>
