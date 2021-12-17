@@ -5,9 +5,10 @@
     <meta charset="utf-8">
     <title>Tutorials zu einer Kategorie</title>
      <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+     <link rel="stylesheet" type="text/css" href="assets/css/grid.css">
 </head>
 
-<body>
+<body id="gridcontainer">
     <header>
         <!-- Ein Kommentar -->
         <img src="assets/images/Logo.png" alt="logo" height="50" width="50" id="bild">
@@ -21,13 +22,6 @@
         <a href="tutorial.html">Details zu den Tutorial "Y"</a>
         |
         <a href="form.html">Tutorial hinzufügen "+"</a>
-        <form method="get">
-            <label>Titel:
-                <input type="text" name="search" size="20" minlength="4" maxlength="20" placeholder="Sucheingabe"
-                    pattern="^[A-Z]\w*$" required>
-            </label>
-            <input type="submit" value="Suche!">
-        </form>
     </nav>
 
     <main>
@@ -95,8 +89,6 @@
 
         </article>
     </main>
-
-
     <aside>
         <h3>Neueste Tutorials</h3>
         <ul>

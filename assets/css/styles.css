@@ -56,8 +56,6 @@ fieldset{
 aside{
   color: white;
   background-color: chocolate;
-  padding: 5px;
-  margin: 10px;
   border-radius: 6px;
   box-shadow: 5px 5px 2px 2px brown;
 }
@@ -65,8 +63,6 @@ aside{
 nav{
   color: white;
   background-color: chocolate;
-  padding: 5px;
-  margin: 10px;
   border-radius: 6px;
   box-shadow: 5px 5px 2px 2px brown;
 }
@@ -78,6 +74,10 @@ a:visited{
 a:hover {
   color: brown;
   background-color: cornsilk;
+}
+
+a {
+  padding: 2px;
 }
 
 
@@ -94,13 +94,12 @@ th, tfoot{
   background-color: coral;
 }
 
-img.tutorials{
-  float:left;
+
+#bild {
+  padding: 10px;
+  margin: 5px;
 }
 
-img.tutorial{
-  float:right;
-}
 
 
 
