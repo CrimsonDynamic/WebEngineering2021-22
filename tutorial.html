@@ -6,14 +6,13 @@
         <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
         <link rel="stylesheet" type="text/css" href="assets/css/flexbox.css">
     </head>
-    <body>
-        <div id="containerHeaderTut">
-        <header>
+    <body id="flexcontainer">
+        <header  id="containerHeader">
             <!-- Ein Kommentar -->
             <img src="assets/images/Logo.png" alt="Logo" height="50" width="50" id="bild">
             <h1>Eine Tutorialseite</h1>
         </header>
-        <nav>
+        <nav id="containerNav">
             <a href="list.html">Liste der Kategorien</a>
             |
             <a href="tutorials.html">Tutorials der Kategorie "X"</a>
@@ -21,7 +20,6 @@
             <a href="tutorial.html">Details zu den Tutorial "Y"</a>
             |
             <a href="form.html">Tutorial hinzufügen "+"</a>
-            <br>
             <!-- <form method="get" action="https://labs.inf.fh-dortmund.de/tutorialService/testTutorialSearch.php" target="_blank">
                 <label>Titel:
                 <input type="text" name="search" size="20" minlength="4" maxlength="20" placeholder="Sucheingabe" pattern="^[A-Z]\w*$" required>
@@ -29,9 +27,8 @@
                 <input type="submit" value="Suche!">
             </form> -->
         </nav>
-    </div>
-    <div id="containerMiddleTut">
-        <main id="containerMainTut">
+    <div id="containerMiddle">
+        <main id="containerMain">
             <article id="meme" title="Memes">
                 <h2> Only the finest MEME'S</h2>
                 <div id="infosTut">
@@ -81,7 +78,7 @@
     </main>
 
 
-    <aside id="sideinfosTut">
+    <aside id="containerSide">
         <h3>Neueste Tutorials</h3>
         <ul>
             <li>Makeuptutorial - Der schnelle Blitzer, 28. September 2021 - Dauer: 15 Min.</li>
@@ -89,7 +86,7 @@
         </ul>
     </aside>
 </div>
-    <footer id="containerFooterTut">
+    <footer id="containerFooter">
         <hr>
         <small>&copy;2021 CPPRLMB (Club Preiswerter Privater Rechthaberischer Linux Möchtegern Bestreiter) </small>
     </footer>
