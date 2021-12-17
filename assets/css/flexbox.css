@@ -1,7 +1,6 @@
 #containerHeader {
     display: flex;
     flex-flow: column;
-    justify-content: left;
     padding: 10px;
     margin: 5px;
     height: 150px;
@@ -10,22 +9,25 @@
 #containerNav {
     display: flex;
     flex-flow: row;
-    justify-content: left;
     padding: 10px;
     margin: 5px;
 }
 
 #containerMiddle {
     display: flex;
-    flex-flow: row;
-    justify-content: center;
+    flex-flow: row;    
    }
+
+#infosTut {
+   display: flex;
+   flex-flow: row;
+}
+
 
 #containerMain {
     display: flex;
-    flex-flow: column;
-    justify-content: center;
-    padding: 10px;
+    flex-flow:column wrap;
+     padding: 10px;
     margin: 5px;
     flex: 1 1 80%;
 }
