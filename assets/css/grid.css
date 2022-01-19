@@ -4,9 +4,11 @@
                         "nav nav"
                         "main side"
                         "footer footer";
-    grid-template-columns: 80% 20%;
+    grid-template-columns: auto 20%;
     height: 150px;
 }
+
+
 
 header { 
     grid-area: header; 
@@ -33,5 +35,18 @@ main {
     grid-area: main;
     padding: 10px;
     margin: 5px;
+}
+
+@media screen and (max-width:768px) {
+    #gridcontainer {
+        display: grid;
+        grid-template-areas:"header header" 
+                            "nav nav"
+                            "main main"
+                            "side side"
+                            "footer footer";
+        grid-template-columns: auto 20%;
+        height: 150px;
+    }
 }
 
