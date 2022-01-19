@@ -1,13 +1,21 @@
 #content{
     display:flex;
     flex-flow:row wrap;
+    
 }
 
 article{
     display:flex;
     justify-content:center;
+    align-items: center;
     flex-flow:column wrap;
     border:1px solid orangered;
     padding: 10px;
     margin: 5px;
+    height: auto;
+    box-shadow: 2px 2px 2px 2px orange;   
+    text-align: center;
+}
+.test {
+    display:block;
 }
