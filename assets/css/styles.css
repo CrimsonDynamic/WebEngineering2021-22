@@ -94,11 +94,12 @@ th, tfoot{
   background-color: coral;
 }
 
-
-#bild {
+img { 
+  max-width: 100%;
+  height: auto;
   padding: 10px;
   margin: 5px;
-}
+  }
 
 
 

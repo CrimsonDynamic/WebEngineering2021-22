@@ -26,10 +26,9 @@
 
 #containerMain {
     display: flex;
-    flex-flow:column wrap;
-     padding: 10px;
+    flex-flow:column;
+    padding: 10px;
     margin: 5px;
-    flex: 1 1 80%;
 }
 
 #containerSide {
@@ -45,3 +44,9 @@
     padding: 10px;
     margin: 5px;
 }
+
+@media screen and (max-width: 768px) {
+    #containerMiddle {
+      flex-direction: column;
+    }
+  }
