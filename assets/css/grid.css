@@ -48,5 +48,15 @@ main {
         grid-template-columns: auto 20%;
         height: 150px;
     }
+    h1{font-size: 80%;}
+
 }
 
+@media screen and (max-width: 480px) {
+    h1{display:none;}
+
+    nav { 
+        display: grid;
+        
+     }
+  }
