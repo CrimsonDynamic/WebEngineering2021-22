@@ -49,4 +49,16 @@
     #containerMiddle {
       flex-direction: column;
     }
+    h1{font-size: 80%;}
+
+  }
+
+  @media screen and (max-width: 480px) {
+
+    h1{display:none;}
+
+    #containerNav{
+        display: flex;
+        flex-flow: column;
+    }
   }
