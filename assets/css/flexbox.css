@@ -25,6 +25,7 @@
 
 
 #containerMain {
+    flex: 1 1 80%;
     display: flex;
     flex-flow:column;
     padding: 10px;
