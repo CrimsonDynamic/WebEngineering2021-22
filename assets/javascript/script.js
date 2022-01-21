@@ -2,5 +2,9 @@ function getViewportWidth() {
     return window.innerWidth ||
     document.documentElement.clientWidth;
    }
-
-console.log(`Die Viewport-Breite beträgt: ${getViewportWidth()}`)
+function getViewportHeight() {
+    return window.innerHeight ||
+    document.documentElement.clientHeight;
+}
+console.log(`Die Viewport-Breite beträgt: ${getViewportWidth()}px 
+und die Viewport-Höhe beträgt: ${getViewportHeight()}px`)
