@@ -6,7 +6,7 @@
     height: 150px;
 }
 
-#containerNav {
+#nav {
     display: flex;
     flex-flow: row;
     padding: 10px;
@@ -51,15 +51,26 @@
       flex-direction: column;
     }
     h1{font-size: 80%;}
-
+    #burgermenuicon {
+        display: none;
+    }
   }
 
+@media screen and (min-width: 481px) {
+    #burgermenuicon {
+        display: none;
+    }
+ 
+}
+
   @media screen and (max-width: 480px) {
+    #burgermenuicon {
+        display: flex;
+    }
 
     h1{display:none;}
 
-    #containerNav{
-        display: flex;
-        flex-flow: column;
+    a{
+        display: none;
     }
   }

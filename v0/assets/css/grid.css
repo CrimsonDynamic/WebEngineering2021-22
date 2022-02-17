@@ -8,8 +8,6 @@
     height: 150px;
 }
 
-
-
 header { 
     grid-area: header; 
     padding: 10px;
@@ -17,6 +15,7 @@ header {
 }
 nav { 
     grid-area: nav;
+    display: wrap;
     padding: 10px;
     margin: 5px;
  }
@@ -27,8 +26,7 @@ aside {
 }
 footer { 
     grid-area: footer;
-    padding: 10px;
-    margin: 5px;
+    width: 100%;
 }
 
 main {
@@ -49,14 +47,28 @@ main {
         height: 150px;
     }
     h1{font-size: 80%;}
+    #burgermenuicon{
+        display: none;
+    }
+ 
+}
+
+@media screen and (min-width:481px) {
+    #burgermenuicon{
+        display: none;
+    }
 
 }
 
 @media screen and (max-width: 480px) {
     h1{display:none;}
-
-    nav { 
+    #burgermenuicon{
         display: grid;
-        
+    }
+    nav {
+        display: grid;
+    }
+    a { 
+        display: none;    
      }
   }

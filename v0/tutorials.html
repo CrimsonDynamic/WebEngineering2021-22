@@ -5,24 +5,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tutorials zu einer Kategorie</title>
-     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
-     <link rel="stylesheet" type="text/css" href="assets/css/grid.css">
+     <link rel="stylesheet" type="text/css" href="v0/assets/css/styles.css">
+     <link rel="stylesheet" type="text/css" href="v0/assets/css/grid.css">
 </head>
 
 <body id="gridcontainer">
     <header>
         <!-- Ein Kommentar -->
-        <img src="assets/images/Logo.png" alt="logo" height="50" width="50">
+        <img src="v0/assets/images/Logo.png" alt="logo" height="50" width="50">
         <h1>Tutorials nach Kategorien</h1>
     </header>
-    <nav>
-        <a href="list.html">Liste der Kategorien</a>
-        |
-        <a href="tutorials.html">Tutorials der Kategorie "X"</a>
-        |
-        <a href="tutorial.html">Details zu den Tutorial "Y"</a>
-        |
-        <a href="form.html">Tutorial hinzufügen "+"</a>
+    <nav id="nav">
+        <img src="v0/assets/images/Hamburger_icon.svg.png" alt="burgermenu" height="20" width="20" id="burgermenuicon">
+        <a id="kategorien" href="list.html">Liste der Kategorien</a>
+    <a id="tutorielsVonKategorie" href="tutorials.html">Tutorials der Kategorie "X"</a>
+    <a id="tutorialDetails" href="tutorial.html">Details zu den Tutorial "Y"</a>
+    <a id="tutorialForm" href="form.html">Tutorial hinzufügen "+"</a>
+
     </nav>
 
     <main>
@@ -31,7 +30,7 @@
                 <h2> Schminken for LIFE</h2>
             </a>
             <figure>
-                <img class="tutorials" src="assets/images/schminken.PNG" alt="bild beschreibung" height="250" width="500">
+                <img class="tutorials" src="v0/assets/images/schminken.PNG" alt="bild beschreibung" height="250" width="500">
                 <figcaption>
                     Abbildung: Schminken
                 </figcaption>
@@ -53,7 +52,7 @@
                 <h2> Only the finest MEME'S</h2>
             </a>
              <figure>
-                <img class="tutorials" src="assets/images/meme.PNG" alt="bild beschreibung" height="250" width="500">
+                <img class="tutorials" src="v0/assets/images/meme.PNG" alt="bild beschreibung" height="250" width="500">
                 <figcaption>
                     Abbildung: Meme bild
                 </figcaption>
@@ -73,7 +72,7 @@
                 <h2> Webtech Tipps</h2>
             </a>
              <figure>
-                <img class="tutorials" src="assets/images/WebEntwicklung.jpg" alt="bild beschreibung" height="250" width="500">
+                <img class="tutorials" src="v0/assets/images/WebEntwicklung.jpg" alt="bild beschreibung" height="250" width="500">
                 <figcaption>
                     Abbildung: Webbild
                 </figcaption>
@@ -101,6 +100,7 @@
         <hr>
         <small>&copy;2021 CPPRLMB (Club Preiswerter Privater Rechthaberischer Linux Möchtegern Bestreiter)</small>
     </footer>
+    <script src="v0/assets/javascript/burgermenu.js"></script>
 </body>
 
 </html>

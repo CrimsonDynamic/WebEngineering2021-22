@@ -4,26 +4,26 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Liste der Kategorien</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/flexbox.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/tiles.css">
-        <script src="assets/javascript/script.js"></script>
+        <link rel="stylesheet" type="text/css" href="v0/assets/css/styles.css">
+        <link rel="stylesheet" type="text/css" href="v0/assets/css/flexbox.css">
+        <link rel="stylesheet" type="text/css" href="v0/assets/css/tiles.css">
+        <script src="v0/assets/javascript/script.js"></script>
+
 
     </head>
     <body id="flexcontainer">
         <header id="containerHeader">
             <!-- Ein Kommentar -->
-            <img src="assets/images/Logo.png" alt="Logo" height="50" width="50" id="bild">
+            <img src="v0/assets/images/Logo.png" alt="Logo" height="50" width="50" id="bild">
             <h1>Liste der Tutorials</h1>
         </header>
-        <nav id="containerNav">
-            <a href="list.html">Liste der Kategorien</a>
-            |
-            <a href="tutorials.html">Tutorials der Kategorie "X"</a>
-            |
-            <a href="tutorial.html">Details zu den Tutorial "Y"</a>
-            |
-            <a href="form.html">Tutorial hinzufügen "+"</a>
+        <nav id="nav">
+            <img src="v0/assets/images/Hamburger_icon.svg.png" alt="burgermenu" height="20" width="20" id="burgermenuicon">
+            <a id="kategorien" href="list.html">Liste der Kategorien</a>
+    <a id="tutorielsVonKategorie" href="tutorials.html">Tutorials der Kategorie "X"</a>
+    <a id="tutorialDetails" href="tutorial.html">Details zu den Tutorial "Y"</a>
+    <a id="tutorialForm" href="form.html">Tutorial hinzufügen "+"</a>
+
         </nav>
     <div id="containerMiddle">
         <main id="containerMain">
@@ -37,25 +37,25 @@
         <div id="content">
         <a class="test" href="tutorials.html">
             <article title="Web-Entwicklung">
-                <img src="assets/images/WebEntwicklung.jpg" alt="Bild beschreibung" height="200" width="400">
+                <img src="v0/assets/images/WebEntwicklung.jpg" alt="Bild beschreibung" height="200" width="400">
                 <h2>Web-Entwicklung</h2>
             </article>
         </a>
         <a class="test" href="tutorials.html">
             <article title="Makeuptutorials">
-                <img src="assets/images/schminken.PNG" alt="bild beschreibung" height="200" width="400">
+                <img src="v0/assets/images/schminken.PNG" alt="bild beschreibung" height="200" width="400">
                 <h2>Makeuptutorials</h2>
             </article>
         </a>
         <a class="test" href="tutorials.html">
             <article title="Memetutorials">
-                <img src="assets/images/meme.PNG" alt="bild beschreibung" height="200" width="400">
+                <img src="v0/assets/images/meme.PNG" alt="bild beschreibung" height="200" width="400">
                 <h2>Memestutorial</h2>
             </article>
         </a>
         <a class="test" href="tutorials.html">
             <article title="Memetutorials">
-                <img src="assets/images/meme.PNG" alt="bild beschreibung" height="200" width="400">
+                <img src="v0/assets/images/meme.PNG" alt="bild beschreibung" height="200" width="400">
                 <h2>Faketutorial</h2>
             </article>
         </a>
@@ -73,5 +73,7 @@
             <hr>
             <small>&copy;2021 CPPRLMB (Club Preiswerter Privater Rechthaberischer Linux Möchtegern Bestreiter)</small>
         </footer>
+        <script src="v0/assets/javascript/burgermenu.js"></script>
+        
     </body>
 </html>

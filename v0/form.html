@@ -4,25 +4,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tutorial hinzufügen</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/grid.css">
-</head>
+    <link rel="stylesheet" type="text/css" href="v0/assets/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="v0/assets/css/grid.css">
+    
+  </head>
 
 <body id="gridcontainer">
   <header>
     <!-- Ein Kommentar -->
-    <img src="assets/images/Logo.png" alt="Logo" height="50" width="50" id="bild">
+    <img src="v0/assets/images/Logo.png" alt="Logo" height="50" width="50" id="bild">
     <h1>Tutorial hinzufügen</h1>
   </header>
-  <nav>
-    <a href="list.html">Liste der Kategorien</a>
-    |
-    <a href="tutorials.html">Tutorials der Kategorie "X"</a>
-    |
-    <a href="tutorial.html">Details zu den Tutorial "Y"</a>
-    |
-    <a href="form.html">Tutorial hinzufügen "+"</a>
-</nav>
+  <nav id="nav">
+    <img src="v0/assets/images/Hamburger_icon.svg.png" alt="burgermenu" height="20" width="20" id="burgermenuicon">
+    <a id="kategorien" href="list.html">Liste der Kategorien</a>
+    <a id="tutorielsVonKategorie" href="tutorials.html">Tutorials der Kategorie "X"</a>
+    <a id="tutorialDetails" href="tutorial.html">Details zu den Tutorial "Y"</a>
+    <a id="tutorialForm" href="form.html">Tutorial hinzufügen "+"</a>
+  </nav>
 <main >
    <form id="infos" method="post" action="https://labs.inf.fh-dortmund.de/tutorialService/testCreateTutorial.php" target="_blank">
      <fieldset>
@@ -78,17 +77,16 @@
     
     <legend id="contenttitle">Inhalt</legend>
     <div>
-    <label for="type+content">Inhalt:</label>
-      <select name="type" size="1" id="type+content">
-        <option value="text">Text-Tutorial</option>
-        <option value="video">Video-Tutorial</option>
-      </select>
+       <input type="radio" id="Text" name="TutorialTyp" value="Text-Tutorial">
+       <label for="Text">Text-Tutorial</label>
+       <input type="radio" id="Video" name="TutorialTyp" value="Video-Tutorial">
+       <label for="Video">Video-Tutorial</label>
     </div>
-      <textarea name="content" cols="80" rows="3" maxlength="100" placeholder="URL oder Video Embed" required></textarea>
+      <textarea id="textarea" name="content" cols="80" rows="3" maxlength="100" placeholder="URL oder Video Embed" required></textarea>
   </fieldset>
 
-    <input type="submit" value="hinzufügen">
-
+    <input type="submit" value="hinzufügen" id="submit">
+    
   </form>
 </main>
 
@@ -103,6 +101,8 @@
     <hr>
     <small>&copy;2021 CPPRLMB (Club Preiswerter Privater Rechthaberischer Linux Möchtegern Bestreiter)</small>
   </footer>
+  <script src="v0/assets/javascript/form.js"></script>
+  <script src="v0/assets/javascript/burgermenu.js"></script>
 </body>
 
 </html>
